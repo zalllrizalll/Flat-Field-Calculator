@@ -10,9 +10,9 @@ public class Persegi {
         return luas;
     }
 
-    public double hitungKeliling(double panjang, double lebar)
+    public double hitungKeliling(double panjang)
     {
-        keliling = (2 * panjang) + (2 * lebar);
+        keliling = 4 * panjang;
         return keliling;
     }
 }

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 hslLuas = persegi.hitungLuas(input1,input2);
                 String hasilL = String.valueOf(hslLuas);
                 htgL.setText(hasilL);
-                hslKeliling = persegi.hitungKeliling(input1, input2);
+                hslKeliling = persegi.hitungKeliling(input1);
                 String hasilK = String.valueOf(hslKeliling);
                 htgK.setText(hasilK);
             }
